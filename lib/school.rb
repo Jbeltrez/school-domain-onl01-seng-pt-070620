@@ -18,7 +18,7 @@ class School
     roster[grade] 
   end 
   def sort_names 
-    grade.sort 
+    grade = !sort
   end 
 
 end 
