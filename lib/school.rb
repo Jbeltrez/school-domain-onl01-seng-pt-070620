@@ -19,8 +19,8 @@ class School
   end 
   def sort
       roster.each do |grade, names|
-      sorted_names << names.sort
-      grade = sorted_names
+      sorted_names = names.sort
+      
     end
     
   end 
