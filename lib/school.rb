@@ -19,7 +19,8 @@ class School
   end 
   def sort_names
     #iterate over roster hash |grade, name| and sort the value of grade key 
-    roster.sort |
+    roster.sort |grade, name|
+    
     
   end 
 
