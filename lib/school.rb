@@ -19,9 +19,8 @@ class School
   end 
   def sort
     #iterate over roster hash |grade, name| and sort the value of grade key 
-    roster[grade].each do |names|
+    roster.each do |grade, names|
       sorted_names << names.sort
     end 
   end
-
 end 
