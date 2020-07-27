@@ -23,8 +23,5 @@ class School
       sorted_names << names.sort
     end 
   end
-    
-    
-  end 
 
 end 
