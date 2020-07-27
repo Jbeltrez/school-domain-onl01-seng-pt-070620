@@ -21,6 +21,7 @@ class School
     #iterate over roster hash |grade, name| and sort the value of grade key 
     roster[grade].each do |names|
       names.sort
+      sort_names << names.sort
     end 
     
     
